@@ -6,7 +6,7 @@ The goal is having each virtual desktop with a different activity (folders, widg
 *NOTE*: I had this running in Plasma 5 with no issues (see [this youtube video](https://www.youtube.com/watch?v=ZrP3e_LjAhA)). I adapted it to Plasma 6 but I have blocking glitches. It seems that most of the times a switch triggers an endless back-and-forth switching between the previous and the current virtual desktop.
 
 ## BUILDING
-On linux (with zip installed) you can create the kwin script package using 'zip ../virtualactivities.kwinscript metadata.json contents/code/main.js' in the src folder and you will get 'virtualactivities.kwinscript' in the project root folder
+On linux (with zip installed) you can create the kwin script package using `zip ../virtualactivities.kwinscript metadata.json contents/code/main.js` in the src folder and you will get `virtualactivities.kwinscript` in the project root folder
 
 ## INSTALLATION
 In System Settings / Apps & Windows / Window Management / KWin Scripts -  'Install from file'
