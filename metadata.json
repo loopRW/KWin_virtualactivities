@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "Virtual Activities",
+        "Description": "Each virtual desktop is attached to a different activity which get switched to automatically",
+        "Icon": "preferences-system-windows-script-virtualactivities",
+        
+        "Authors": [
+            {
+                "Email": "ahmetovic.dragan@gmail.com",
+                "Name": "Dragan Ahmetovic"
+            }
+        ],
+        "Id": "virtualactivities",
+        "Version": "2.8",
+        "License": "GPLv3",
+        "Website": "https://github.com/username/myscript"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
